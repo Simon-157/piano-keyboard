@@ -1,0 +1,511 @@
+body{
+    background-color:gainsboro;
+    
+}
+
+.navbar{
+    background-color: rgb(238, 217, 217);
+    
+}
+
+.list_item{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: medium;
+}
+
+
+.keyboard_field{
+    background-color: black;
+    height: 30rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+    
+}
+
+
+.keys_field{
+   
+    background-color: white;
+    height: 20rem;
+    padding-top: 5rem;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 150px;
+    border-radius: 50px;
+    
+}
+
+
+
+.key1{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:50;
+    cursor:pointer;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:366px;
+
+}
+
+.key3{
+    
+    color:blue;
+    background-color:black;
+    position:absolute;
+    z-index:52;
+    cursor:pointer;
+    margin-left: 26px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:372px;
+
+}
+
+.key2{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:51;
+    cursor:pointer;
+    margin-left: 55px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:369px;
+
+}
+
+.key4{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:53;
+    cursor:pointer;
+    margin-left: 110px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:375px;
+
+}
+.key5{
+    
+    color:blue;
+    background-color:black;
+    position:absolute;
+    z-index:54;
+    cursor:pointer;
+    margin-left: 79px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:375px;
+
+}
+
+
+.key6{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:55;
+    cursor:pointer;
+    margin-left: 165px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:378px;
+
+}
+
+
+/* .key6{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:55;
+    cursor:pointer;
+    margin-left: 275px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:147px;
+    left:379px;
+
+} */
+
+.key7{
+    
+    color:blue;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:57;
+    cursor:pointer;
+    margin-left: 220px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:380px;
+
+}
+
+.key8{
+    
+    color:blue;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:57;
+    cursor:pointer;
+    margin-left: 280px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:375px;
+
+}
+
+.key9{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:58;
+    cursor:pointer;
+    margin-left: 190px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:381px;
+
+}
+.key10{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:59;
+    cursor:pointer;
+    margin-left: 246px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:382px;
+
+}
+
+
+
+.key11{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:60;
+    cursor:pointer;
+    margin-left: 330px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:383px;
+
+}
+.key12{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:61;
+    cursor:pointer;
+    margin-left:300px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:384px;
+
+}
+.key13{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:62;
+    cursor:pointer;
+    margin-left: 385px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:385px;
+
+}
+
+.key14{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:63;
+    cursor:pointer;
+    margin-left: 440px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:386px;
+
+}
+
+.key15{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:63;
+    cursor:pointer;
+    margin-left:412px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:387px;
+
+}
+
+
+.key16{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:64;
+    cursor:pointer;
+    margin-left: 495px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key17{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:65;
+    cursor:pointer;
+    margin-left: 466px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+.key18{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:66;
+    cursor:pointer;
+    margin-left: 550px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key19{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:67;
+    cursor:pointer;
+    margin-left: 550px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key20{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:68;
+    cursor:pointer;
+    margin-left: 550px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key21{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:69;
+    cursor:pointer;
+    margin-left: 605px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key22{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:70;
+    cursor:pointer;
+    margin-left: 576px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key23{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:71;
+    cursor:pointer;
+    margin-left: 660px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key24{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:72;
+    cursor:pointer;
+    margin-left: 634px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+.key25{
+    
+    color:black;
+    background-color:whitesmoke;
+    position:absolute;
+    z-index:73;
+    cursor:pointer;
+    margin-left: 715px;
+    padding-top:258px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
+.key26{
+    
+    color:black;
+    background-color:black;
+    position:absolute;
+    z-index:74;
+    cursor:pointer;
+    margin-left: 690px;
+    padding-top:180px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    top:143px;
+    left:388px;
+
+}
+
+
